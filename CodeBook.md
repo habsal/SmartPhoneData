@@ -10,11 +10,14 @@ The zipped file, "UCI HAR Dataset" contains :
 - Activity labels, which is the labels of the target variable
 - Detailed information on the fetures axisting in the dataset
 
+
 We use following files:
-- Main directory, activity_labels.txt
-- Main directory, features.txt
+- Main directory, activity_labels.txt, id and names of 6 different activity
+- Main directory, features.txt. 561 features.
 - Train directory : subject_train.txt, X_train.txt, y_train
 - Test directory : subject_test.txt, X_test.txt, y_test
+Train sets have 7352 rows, test sets have 2947 rows.
+X_train/X_test stes have 561 features.
 
 Train and Test data is merged to reach the whole dataset.
 Varibale and target variable names and categorical values are added to the dataset.
