@@ -19,12 +19,13 @@ We use following files:
 Train sets have 7352 rows, test sets have 2947 rows.
 X_train/X_test stes have 561 features.
 
+# TRANSFORMATION
 Train and Test data is merged to reach the whole dataset.
 Varibale and target variable names and categorical values are added to the dataset.
 Then variables containing standart deviation or mean information is slected and average of them calculated grouping by Subject and Activity.
 Since the names of variables was not clean, names are trasnformed to a more meaning ful version. Since ve aggreagted each variable, we added "MeanOf" to each variable name.
 
-Finally we have :
+# FINAL DATA
   Subject : The person id whose moevements are collected. 1 to 30. 
   Motion  : Activity tyeps, "Walking", "Standing" etc.
   Mean of time and frequency values of activity tpes, 66 variables (normalized).
