@@ -27,7 +27,7 @@ Since the names of variables was not clean, names are trasnformed to a more mean
 
 # FINAL DATA
   Subject : The person id whose moevements are collected. 1 to 30. 
-  Motion  : Activity tyeps, "Walking", "Standing" etc.
+  Activity  : Activity types, "Walking", "Standing" etc.
   Mean of time and frequency values of activity tpes, 66 variables (normalized).
   For more details please see below:
     http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
